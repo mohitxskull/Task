@@ -64,11 +64,9 @@ export const AppLayout = (props: Props) => {
                 variant="transparent"
                 px="xs"
                 component={Link}
-                href="https://github.com/mohitxskull/Task"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/app/tasks"
               >
-                Github
+                Tasks
               </Button>
 
               <Button
@@ -80,7 +78,7 @@ export const AppLayout = (props: Props) => {
                 component={Link}
                 href="/app/settings"
               >
-                Setting
+                Settings
               </Button>
 
               <Button
