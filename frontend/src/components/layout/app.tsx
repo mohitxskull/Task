@@ -64,7 +64,7 @@ export const AppLayout = (props: Props) => {
                 variant="transparent"
                 px="xs"
                 component={Link}
-                href="https://github.com/mohitxskull/Coupon"
+                href="https://github.com/mohitxskull/Task"
                 target="_blank"
                 rel="noopener noreferrer"
               >
