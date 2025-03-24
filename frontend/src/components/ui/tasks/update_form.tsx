@@ -103,10 +103,10 @@ export const TaskUpdateForm = (props: Props) => {
                 description="Toggle to mark the task as important."
               >
                 <Switch
-                  {...inputProps("completed", {
+                  {...inputProps("important", {
                     type: "checkbox",
                   })}
-                  key={form.key("completed")}
+                  key={form.key("important")}
                 />
               </HorizontalInput>
 
